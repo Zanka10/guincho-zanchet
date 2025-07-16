@@ -217,11 +217,11 @@ nav a:hover {
 }
 .contato {
   padding: 48px 32px;
-  background: #fff;
+  color: white;
   text-align: center;
 }
 .contato h2 {
-  color: #003366;
+  color: white;
 }
 .botao-email {
   display: inline-block;
@@ -238,10 +238,14 @@ nav a:hover {
   background: #0055a5;
 }
 .botao-whatsapp {
+  z-index: 10;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
   display: inline-block;
   margin-top: 16px;
-  background: #25d366;
-  color: #fff;
+  background: rgb(20, 145, 70);
+  color: #ffffff;
   padding: 10px 22px;
   border-radius: 24px;
   text-decoration: none;
@@ -249,7 +253,7 @@ nav a:hover {
   transition: background 0.2s;
 }
 .botao-whatsapp:hover {
-  background: #1ebe5d;
+  background: rgb(15, 201, 89);
 }
 .botao-instagram {
   display: inline-block;
